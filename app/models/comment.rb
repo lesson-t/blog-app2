@@ -14,4 +14,5 @@
 #
 class Comment < ApplicationRecord
     belongs_to :article
+    varidates :content, presence: true
 end
